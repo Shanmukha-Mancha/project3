@@ -1,0 +1,48 @@
+
+/*CSS for styling the navigation menu*/
+nav{
+    background-color:#333;
+    color:white;
+    padding:10px;
+
+}
+nav h1{
+    text-align: center;
+}
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+nav ul li{
+    display:inline;
+    margin-right:20px;
+
+}
+nav ul li a{
+    color:white;
+    text-decoration:none;
+
+}
+nav ul li a:hover{
+    text-decoration:underline;
+    color:aqua;
+    border:2px solid yellow;
+}
+section{
+    padding:20px;
+}
+footer{
+    background-color: #2858de;
+    color:#fff;
+    text-align:center;
+    padding:10px 0;
+   margin-top: 150px;
+}
+.data p{
+    margin-top: 100px;
+}
+::selection{
+    background-color: red;
+    color: yellow;
+}
